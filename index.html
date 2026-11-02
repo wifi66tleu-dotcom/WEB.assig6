@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<section id="profile">
+    <h1 id="title">Welcome to My Portfolio!</h1>
+    <h1 id="name">Aiymay Tleu</h1>
+    <h2 class="headline">Software Engineering Student</h2>
+    <p class="intro">Hello! I'm studying Software Engineering at Astana IT University. I enjoy creating new things, exploring technology and developing my skills step by step.</p>
+    <button id="changeText">Change Greeting</button>
+    <button id="lightTheme">Light Theme</button>
+    <button id="darkTheme">Dark Theme</button>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I enjoy learning new things and working on creative projects. In my free time, I like drawing, listening to music, watching movies, taking photos and reading books.</p>
+    <div id="info">
+        <h3>My Current Status</h3>
+        <p id="status">Currently learning jQuery and improving my web development skills!</p>
+        <h3>A Little More About Me</h3>
+        <ul>
+            <li>I enjoy drawing and being creative.</li>
+            <li>I like listening to music.</li>
+            <li>I enjoy photography and taking pictures.</li>
+            <li>I like watching movies and reading books.</li>
+        </ul>
+    </div>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <button id="toggle">Toggle</button>
+</section>
+
+<section id="gallery">
+    <h2>My Gallery</h2>
+    <p>Some pictures that represent my interests.</p>
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="images/photo1.jpg" alt="Flower illustration">
+            <h3>Creativity</h3>
+            <p>I like drawing and creating beautiful things.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/photo2.jpg" alt="Nature illustration">
+            <h3>Photography</h3>
+            <p>I enjoy taking photos of nature and places.</p>
+        </div>
+    </div>
+    <button id="fadeIn">Fade In</button>
+    <button id="fadeOut">Fade Out</button>
+    <button id="fadeToggle">Fade Toggle</button>
+</section>
+
+<section id="interests">
+    <h2>My Favorite Things</h2>
+    <p>Click a heading to show the information. Double-click to hide it.</p>
+    <div class="slide-item">
+        <h3 class="slide-heading">My Favorite Music</h3>
+        <div class="slide-panel"><p>Everything is Fine - J Rongson.</p></div>
+    </div>
+    <div class="slide-item">
+        <h3 class="slide-heading">My Favorite Movie</h3>
+        <div class="slide-panel"><p>Marvel.</p></div>
+    </div>
+    <div class="slide-item">
+        <h3 class="slide-heading">My Favorite Subject</h3>
+        <div class="slide-panel"><p>Software Design.</p></div>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>My Technical Skills</h2>
+    <p>Technologies I am learning.</p>
+    <ul id="skill-list">
+        <li>HTML</li><li>CSS</li><li>Java</li><li>Python</li>
+    </ul>
+    <input type="text" id="skill-input" placeholder="Enter a new skill">
+    <br><br>
+    <button id="add-skill">Add Skill</button>
+    <button id="prepend-skill">Prepend Skill</button>
+    <button id="remove-skill">Remove Skill</button>
+    <p id="skill-message"></p>
+</section>
+
+<section id="social">
+    <h2>Connect With Me</h2>
+    <a id="social-link" href="https://github.com/wifi66tleu-dotcom" target="_blank">Visit My GitHub</a>
+    <br><br>
+    <button id="change-link">Change Link to LinkedIn</button>
+</section>
+
+<section id="contact">
+    <h2>Contact Form</h2>
+    <form>
+        <input type="text" id="un" placeholder="Enter your name">
+        <input type="email" id="ue" placeholder="Enter your email">
+    </form>
+    <h3>Live Preview</h3>
+    <p id="pn">Name: </p>
+    <p id="pe">Email: </p>
+</section>
+
+<section id="skill-animation">
+    <h2>My Skill Levels</h2>
+    <p>HTML</p><div class="bar"><div id="html"></div></div>
+    <p>CSS</p><div class="bar"><div id="css"></div></div>
+    <p>JavaScript</p><div class="bar"><div id="java"></div></div>
+    <p>jQuery</p><div class="bar"><div id="jquery"></div></div>
+    <button id="animate-skills">Animate My Skills</button>
+</section>
+<footer><p>Astana IT University |2026 | Aiymay Tleu</p></footer>
+</body>
+</html>
